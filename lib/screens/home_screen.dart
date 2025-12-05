@@ -102,7 +102,10 @@ class _HomeScreenState extends State<HomeScreen> {
     {'title': 'Free Classes', 'icon': Icons.videocam, 'color': Colors.pink},
     {'title': 'Notes', 'icon': Icons.newspaper, 'color': Colors.orange},
     {'title': 'Downloads', 'icon': Icons.download, 'color': Colors.red},
+    {'title': 'Store', 'icon': Icons.store, 'color': Colors.lime},
     {'title': 'Ask Doubts', 'icon': Icons.help, 'color': Colors.teal},
+    {'title': 'Social Links', 'icon': Icons.link, 'color': Colors.yellow},
+    {'title': 'PGS Youtube', 'icon': Icons.video_collection, 'color': Colors.red},
 
   ];
 
@@ -336,8 +339,10 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Notes',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.store),
-            label: 'Store',
+            //icon: Icon(Icons.store),
+            //label: 'Store',
+            icon: Icon(Icons.developer_board),
+            label: 'Notice',
           ),
         ],
       ),

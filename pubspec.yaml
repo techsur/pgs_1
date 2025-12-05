@@ -9,6 +9,12 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
+  # Remove carousel_slider for now due to Flutter 3.22+ conflicts
+  # carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1   # For rating stars
+  badges: ^3.0.1               # For notification badges
+  shimmer: ^3.0.0              # For shimmer loading effect
+  smooth_page_indicator: ^1.1.0  # Alternative for page indicators
 
 dev_dependencies:
   flutter_test:

@@ -4,17 +4,16 @@ class AppConstants {
   static const String appName = 'Prime Global Studies';
   static const String appTagline = 'Premium Education Platform';
 
-  // Menu Items
-  static final List<Map<String, dynamic>> menuItems = [
-    {'title': 'All Courses', 'icon': Icons.menu_book, 'color': Colors.blue},
-    {'title': 'Live Class', 'icon': Icons.live_tv, 'color': Colors.green},
-    {'title': 'Notes', 'icon': Icons.note, 'color': Colors.orange},
-    {'title': 'My Paid Courses', 'icon': Icons.payment, 'color': Colors.purple},
-    {'title': 'Social Links', 'icon': Icons.share, 'color': Colors.pink},
-    {'title': 'Test', 'icon': Icons.assignment, 'color': Colors.red},
-    {'title': 'Free Videos', 'icon': Icons.videocam, 'color': Colors.teal},
-    {'title': 'Free Test', 'icon': Icons.quiz, 'color': Colors.indigo},
-    {'title': 'Store', 'icon': Icons.store, 'color': Colors.amber},
+  // Main Menu Items
+  static final List<Map<String, dynamic>> mainMenuItems = [
+    {'title': 'Home', 'icon': Icons.home},
+    {'title': 'Purchases', 'icon': Icons.shopping_cart},
+    {'title': 'Settings', 'icon': Icons.settings},
+    {'title': 'Share', 'icon': Icons.share},
+    {'title': 'Rate', 'icon': Icons.star},
+    {'title': 'Chat', 'icon': Icons.chat},
+    {'title': 'Terms & Conditions', 'icon': Icons.description},
+    {'title': 'Logout', 'icon': Icons.logout},
   ];
 
   // Bottom Navigation Items

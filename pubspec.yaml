@@ -5,16 +5,36 @@ version: 1.0.0+1
 environment:
   sdk: '>=3.9.2 <4.0.0'
 
+#dependencies:
+#  flutter:
+#    sdk: flutter
+#  cupertino_icons: ^1.0.6
+#  # Remove carousel_slider for now due to Flutter 3.22+ conflicts
+#  # carousel_slider: ^4.2.1
+#  flutter_rating_bar: ^4.0.1   # For rating stars
+#  badges: ^3.0.1               # For notification badges
+#  shimmer: ^3.0.0              # For shimmer loading effect
+#  smooth_page_indicator: ^1.1.0  # Alternative for page indicators
+#  url_launcher: ^6.2.2  # For external links
+#  flutter_otp_text_field: ^1.1.1  # For OTP input
+#  country_code_picker: ^2.0.2  # For country code selection
+#  form_validator: ^2.1.1  # For form validation
+
+
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  # Remove carousel_slider for now due to Flutter 3.22+ conflicts
-  # carousel_slider: ^4.2.1
-  flutter_rating_bar: ^4.0.1   # For rating stars
-  badges: ^3.0.1               # For notification badges
-  shimmer: ^3.0.0              # For shimmer loading effect
-  smooth_page_indicator: ^1.1.0  # Alternative for page indicators
+  flutter_rating_bar: ^4.0.1
+  badges: ^3.0.1
+  shimmer: ^3.0.0
+  url_launcher: ^6.2.2
+
+  # Use updated versions that support Flutter 3.x
+  country_code_picker: ^3.0.0  # Updated version
+  # Remove modal_bottom_sheet if not needed, or use compatible version
+  # modal_bottom_sheet: ^2.1.2  # Comment out or remove
+
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +45,6 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+
+
+

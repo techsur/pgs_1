@@ -414,7 +414,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void _handleMenuItemTap(String title) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('$title tapped'),
+        content: Text('$title, Please wait, we are working on this feature.'),
         duration: const Duration(seconds: 1),
       ),
     );
@@ -423,7 +423,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void _handleQuickAccessTap(String title) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('$title tapped'),
+        content: Text('$title, Please wait, we are working on this feature.'),
         duration: const Duration(seconds: 1),
       ),
     );

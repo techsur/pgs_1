@@ -5,7 +5,7 @@ class AppConstants {
   static const String appTagline = 'Premium Education Platform';
 
   // Menu Items
-  static final List<Map<String, dynamic>> menuItems = [
+/*  static final List<Map<String, dynamic>> menuItems = [
     {'title': 'All Courses', 'icon': Icons.menu_book, 'color': Colors.blue},
     {'title': 'Live Class', 'icon': Icons.live_tv, 'color': Colors.green},
     {'title': 'Notes', 'icon': Icons.note, 'color': Colors.orange},
@@ -15,7 +15,7 @@ class AppConstants {
     {'title': 'Free Videos', 'icon': Icons.videocam, 'color': Colors.teal},
     {'title': 'Free Test', 'icon': Icons.quiz, 'color': Colors.indigo},
     {'title': 'Store', 'icon': Icons.store, 'color': Colors.amber},
-  ];
+  ];*/
 
   // Bottom Navigation Items
   static final List<Map<String, dynamic>> bottomNavItems = [
